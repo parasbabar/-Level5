@@ -286,6 +286,8 @@ Product analytics are powered by **PostHog** ([`src/lib/analytics.ts`](./src/lib
 ## Plausible 
 <img width="1870" height="862" alt="Screenshot 2026-09-15 184253" src="https://github.com/user-attachments/assets/31e8037f-d34d-4f74-afdc-0458cfc19a51" />
 
+https://plausible.io/blue-belt-f34cema1d-parasbabars-projects.vercel.app
+
 ## 🛡️ Monitoring & Error Tracking
 
 Application monitoring is powered by **Sentry** ([`src/lib/monitoring.ts`](./src/lib/monitoring.ts)):
