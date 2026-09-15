@@ -283,6 +283,8 @@ Product analytics are powered by **PostHog** ([`src/lib/analytics.ts`](./src/lib
 | `feedback_submitted` | Captures 1–5 star rating submission |
 
 ---
+## Plausible 
+<img width="1870" height="862" alt="Screenshot 2026-09-15 184253" src="https://github.com/user-attachments/assets/31e8037f-d34d-4f74-afdc-0458cfc19a51" />
 
 ## 🛡️ Monitoring & Error Tracking
 
