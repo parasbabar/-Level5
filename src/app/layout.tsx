@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Providers from "@/components/Providers";
 
@@ -28,6 +29,20 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#050914" />
+        {/* Plausible Analytics */}
+        <Script
+          src="https://plausible.io/js/pa-ZdqAt6RNnCyKtXUr2a4UC.js"
+          strategy="afterInteractive"
+        />
+        <Script id="plausible-init" strategy="afterInteractive">
+          {`
+            window.plausible = window.plausible || function() {
+              (plausible.q = plausible.q || []).push(arguments)
+            };
+            plausible.init = plausible.init || function(i) { plausible.o = i || {} };
+            plausible.init()
+          `}
+        </Script>
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>
